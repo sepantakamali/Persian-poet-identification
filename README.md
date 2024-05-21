@@ -1,15 +1,4 @@
 Abstract
 
-In identifying the identity of the Persian poet, features of Persian poetry and literature are discussed, which leads to
-learning and identifying the identity of the poet. The presented approach deals with the analysis of the words used in the
-poem, the rhythm and format of the poem, and by calculating the weighted frequency for these features, it trains a
-model to be able to recognize the author of the poem. This approach is a new way to identify the identity of the Persian
-poet, which is inspired by the method used by Persian poetry experts to identify the poet experimentally. In this
-approach, using text mining techniques, features are extracted from the text of poems and become a criterion for
-evaluating poetry. Finally, the poem is evaluated from the aspect of these characteristics. Then, the probability is
-calculated based on these features so that the most likely poet is chosen as the poet. A bag of words is created for words
-extracted from the text and unique words are considered as features. The rhythms and formats are inferred from the
-poems in the dataset. Features are added to the training set after preprocessing and TFIDF calculation. In pre-
-processing, Rule Based technique is used to classify and calculate features. The proposed model is compared in several
-stages and with multiple models, including different versions of the proposed model. Several test sets are created and the
-performance of the model is evaluated.
+
+The process of determining the identity of a Persian poet involves examining the characteristics of Persian poetry and literature. This involves analyzing the words used in the poem, as well as the rhythm and format of the poem. By calculating the weighted frequency of these features, a model can be trained to recognize the author of the poem. This approach is a new way of identifying the identity of a Persian poet, inspired by the method used by Persian poetry experts to experimentally identify the poet. Text-mining techniques are used to extract features from the text of poems, which become the criteria for evaluating poetry. The poem is then evaluated based on these characteristics, and the probability is calculated based on these features to determine the most likely poet. A bag of words is created for words extracted from the text, and unique words are considered features. The rhythms and formats were inferred from the poems in the dataset. Features were added to the training set after pre-processing and TFIDF calculations. During preprocessing, a rule-based technique is used to classify and calculate the features. The proposed model was compared to multiple models, including different versions of the proposed model, in several stages. Several test sets were created, and the performance of the model was evaluated.
